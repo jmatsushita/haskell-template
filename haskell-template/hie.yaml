@@ -1,0 +1,10 @@
+cradle:
+  cabal:
+    - path: ./src
+      component: "lib:haskell-template"
+
+    - path: ./exe
+      component: "exe:haskell-template"
+
+    - path: ./test
+      component: "test:haskell-template-test"

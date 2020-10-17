@@ -1,0 +1,80 @@
+cabal-version:      2.4
+name:               haskell-template
+version:            0.1.0.0
+description:        A template for starting new Haskell projects.
+category:           Example
+stability:          stable
+homepage:           https://github.com/hackworthltd/haskell-template
+bug-reports:        https://github.com/hackworthltd/haskell-template
+license:            BSD-3-Clause
+license-file:       LICENSE
+copyright:          © 2020 Hackworth Ltd
+author:             Drew Hess <dhess-src@hackworthltd.com>
+maintainer:         dhess-src@hackworthltd.com
+tested-with:        GHC ==8.6.5 || ==8.8.3
+extra-source-files: .hlint.yaml
+
+source-repository head
+  type:     git
+  location: https://github.com/hackworthltd/haskell-template
+
+common deps
+  build-depends: base >=4.12 && <5
+
+common exts
+  default-language:   Haskell2010
+  default-extensions:
+    DataKinds
+    DeriveFoldable
+    DeriveFunctor
+    DeriveGeneric
+    DerivingStrategies
+    GADTs
+    GeneralizedNewtypeDeriving
+    KindSignatures
+    LambdaCase
+    OverloadedStrings
+    ScopedTypeVariables
+    StandaloneDeriving
+
+common opts
+  ghc-options:
+    -Wall -Wincomplete-uni-patterns -Wincomplete-record-updates
+    -Wcompat -Widentities -Wredundant-constraints -fhide-source-paths
+    -fexternal-interpreter
+
+common defaults
+  import: deps, exts, opts
+
+common exe
+  import:      defaults
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+
+common test
+  import:      defaults
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+
+library
+  import:          defaults
+  hs-source-dirs:  src
+  exposed-modules: MyLib
+
+executable haskell-template
+  import:         exe
+  hs-source-dirs: exe
+  main-is:        Main.hs
+  build-depends:
+    , haskell-template
+    , optparse-applicative  ^>=0.15.1.0
+
+test-suite haskell-template-test
+  import:         test
+  type:           exitcode-stdio-1.0
+  hs-source-dirs: test
+  main-is:        MyLibTest.hs
+  build-depends:
+    , haskell-template
+    , hedgehog           ^>=1.0.2
+    , hedgehog-classes   ^>=0.2.4.1
+    , hspec              ^>=2.7.1
+    , hw-hspec-hedgehog  ^>=0.1.0.9

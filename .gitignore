@@ -1,0 +1,34 @@
+# Emacs.
+*~
+.tramp_history
+.\#*
+\#*\#
+
+# macOS.
+.DS_Store
+
+# Nix.
+result*
+
+# direnv.
+.direnv/
+.envrc
+
+# Cabal.
+dist
+dist-newstyle/
+cabal-dev
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+
+# Stack.
+.stack-work/*
+
+# GHC.
+*.o
+*_o
+*.hi
+*_hi
+*.chi
+*.chs.h

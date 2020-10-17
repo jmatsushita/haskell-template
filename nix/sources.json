@@ -1,0 +1,50 @@
+{
+    "hacknix": {
+        "branch": "main",
+        "description": "Hackworth Ltd's nix overlays and modules.",
+        "homepage": "",
+        "owner": "hackworthltd",
+        "repo": "hacknix",
+        "rev": "97d8dd840ed5a1853e8452cfe58424f9016437a9",
+        "sha256": "0sx147s1hlhczcp2zq1bz3jqzays28irv89gg2ncp0hp7lyfqinx",
+        "type": "tarball",
+        "url": "https://github.com/hackworthltd/hacknix/archive/97d8dd840ed5a1853e8452cfe58424f9016437a9.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "haskell-hacknix": {
+        "branch": "main",
+        "description": "Hackworth Ltd's haskell.nix overlay.",
+        "homepage": "",
+        "owner": "hackworthltd",
+        "repo": "haskell-hacknix",
+        "rev": "ec95264903032fae6006e3213da421f0c449e5db",
+        "sha256": "1gd8m1mwsx58wjhg00m2cmp38xx6cpdwqky0wwhjwrbwm80x9nqm",
+        "type": "tarball",
+        "url": "https://github.com/hackworthltd/haskell-hacknix/archive/ec95264903032fae6006e3213da421f0c449e5db.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "niv": {
+        "branch": "master",
+        "description": "Easy dependency management for Nix projects",
+        "homepage": "https://github.com/nmattia/niv",
+        "owner": "nmattia",
+        "repo": "niv",
+        "rev": "9d35b9e4837ab88517210b1701127612c260eccf",
+        "sha256": "0q50xhnm8g2yfyakrh0nly4swyygxpi0a8cb9gp65wcakcgvzvdh",
+        "type": "tarball",
+        "url": "https://github.com/nmattia/niv/archive/9d35b9e4837ab88517210b1701127612c260eccf.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
+    "pre-commit-hooks": {
+        "branch": "e5ef518936a3f2f4575de064c74fb6383d2d330d",
+        "description": "Seamless integration of https://pre-commit.com git hooks with Nix.",
+        "homepage": "",
+        "owner": "cachix",
+        "repo": "pre-commit-hooks.nix",
+        "rev": "e5ef518936a3f2f4575de064c74fb6383d2d330d",
+        "sha256": "169nhrg3bkvm0zqnrciapbpdvqdy3i772ijx9zjv6490i6ilp072",
+        "type": "tarball",
+        "url": "https://github.com/cachix/pre-commit-hooks.nix/archive/e5ef518936a3f2f4575de064c74fb6383d2d330d.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    }
+}
