@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "hackworthltd",
         "repo": "hacknix",
-        "rev": "dd64d32fad045fd12d2cb1b755dbf725b3992929",
-        "sha256": "1wylps6x8h1s0c3lm0dhkrlnsa5x94wnbacgpfjin9hi24i60vy2",
+        "rev": "37d4510d9a7ed55187e16e78487fced177dbe2da",
+        "sha256": "1s5f45lb4mr6k8amc70h8qyr3m7fxf10rgdxndpf0zzqw9dnxa7r",
         "type": "tarball",
-        "url": "https://github.com/hackworthltd/hacknix/archive/dd64d32fad045fd12d2cb1b755dbf725b3992929.tar.gz",
+        "url": "https://github.com/hackworthltd/hacknix/archive/37d4510d9a7ed55187e16e78487fced177dbe2da.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "haskell-hacknix": {
@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "bcf5b8c18e80e180322df727bd1ab6a554ab877a",
-        "sha256": "098riinw67qh1qqg1mk3psrcja0cmp45vw2gwq8401368lg7lv1a",
+        "rev": "a0cb2cbced7e687288740b3ca132464b8f3b750c",
+        "sha256": "18bcbmk78lar1v6wbjbnafx574dpqwzgbj47c9ambgp85zgibkb1",
         "type": "tarball",
-        "url": "https://github.com/hackworthltd/haskell-hacknix/archive/bcf5b8c18e80e180322df727bd1ab6a554ab877a.tar.gz",
+        "url": "https://github.com/hackworthltd/haskell-hacknix/archive/a0cb2cbced7e687288740b3ca132464b8f3b750c.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
