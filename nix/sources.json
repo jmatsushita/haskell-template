@@ -5,10 +5,10 @@
         "homepage": "",
         "owner": "hackworthltd",
         "repo": "hacknix",
-        "rev": "b46cb227aac68dc50b6dba042b49e15100d8b266",
-        "sha256": "1dzld36jx5586camf1kbjhprahb207q5xl2whpwkpvkagn9w6wpc",
+        "rev": "44a44d8ef645a3f892b2f0ccf5d64590cd913809",
+        "sha256": "07vi0v6dif0c068a9987idip33p9wyvx68npy5vfhskfbqp2hkhc",
         "type": "tarball",
-        "url": "https://github.com/hackworthltd/hacknix/archive/b46cb227aac68dc50b6dba042b49e15100d8b266.tar.gz",
+        "url": "https://github.com/hackworthltd/hacknix/archive/44a44d8ef645a3f892b2f0ccf5d64590cd913809.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "haskell-hacknix": {
@@ -17,10 +17,10 @@
         "homepage": "",
         "owner": "hackworthltd",
         "repo": "haskell-hacknix",
-        "rev": "acb1574d4fcd07dda55448044edc6970b25495dc",
-        "sha256": "0xq4w2936a8f57qqwbf7gdxgf0d6a50sp1gh57bqxhjcr9l9c8gb",
+        "rev": "b9b7834d70026694f4878df326c19e07c68fd901",
+        "sha256": "1didln4k4czsy36nd1xyl2xbmqv9r9rgx8gs9r16r3p6rwviy6l6",
         "type": "tarball",
-        "url": "https://github.com/hackworthltd/haskell-hacknix/archive/acb1574d4fcd07dda55448044edc6970b25495dc.tar.gz",
+        "url": "https://github.com/hackworthltd/haskell-hacknix/archive/b9b7834d70026694f4878df326c19e07c68fd901.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "niv": {
@@ -29,10 +29,10 @@
         "homepage": "https://github.com/nmattia/niv",
         "owner": "nmattia",
         "repo": "niv",
-        "rev": "20c899271f288d33114760bc298838575fc6c7f9",
-        "sha256": "07zswk6dhlydihl9g6skmy52grjvqpra8r98f2dmbgwzc1yhjhxq",
+        "rev": "ba57d5a29b4e0f2085917010380ef3ddc3cf380f",
+        "sha256": "1kpsvc53x821cmjg1khvp1nz7906gczq8mp83664cr15h94sh8i4",
         "type": "tarball",
-        "url": "https://github.com/nmattia/niv/archive/20c899271f288d33114760bc298838575fc6c7f9.tar.gz",
+        "url": "https://github.com/nmattia/niv/archive/ba57d5a29b4e0f2085917010380ef3ddc3cf380f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
     "pre-commit-hooks": {
